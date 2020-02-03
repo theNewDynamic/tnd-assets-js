@@ -1,3 +1,0 @@
-var $ed478a0db8fffad82255bc228564d$var$lazysizes = $parcel$require("596ed478a0db8fffad82255bc228564d", "lazysizes"); //var respimg = require('lazysizes/plugins/respimg/ls.respimg.js');
-
-var $ed478a0db8fffad82255bc228564d$var$noscript = $parcel$require("596ed478a0db8fffad82255bc228564d", "lazysizes/plugins/noscript/ls.noscript.js"); //var unveilhooks = require('lazysizes/plugins/unveilhooks/ls.unveilhooks.js');
