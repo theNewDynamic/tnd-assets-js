@@ -8,3 +8,4 @@ quicklink({
     (uri, elem) => elem.hasAttribute('noprefetch'),
   ],
 });
+console.log('Quicklink is intialized is initialzed')
