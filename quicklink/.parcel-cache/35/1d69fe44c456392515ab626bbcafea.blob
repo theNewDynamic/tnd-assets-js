@@ -1,0 +1,11 @@
+"use strict";
+
+var _quicklink = _interopRequireDefault(require("quicklink"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _quicklink.default)({
+  ignores: [// ignore .pdf files
+  uri => uri.includes('.pdf'), // ignore all links, scripts which has explicit noprefetch
+  (uri, elem) => elem.hasAttribute('noprefetch')]
+});

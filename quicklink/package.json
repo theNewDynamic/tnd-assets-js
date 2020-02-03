@@ -1,0 +1,23 @@
+{
+	"name": "tnd-quicklink",
+	"version": "1.0.0",
+	"description": "Prefetch in-viewport links",
+	"main": "dist/index.js",
+	"source": "src/index.js",
+	"scripts": {
+		"build": "parcel build src/index.js"
+	},
+	"keywords": [
+		"js"
+	],
+	"author": "budparr",
+	"license": "MIT",
+	"browserslist": [
+		"> 1%",
+		"not dead"
+	],
+	"devDependencies": {
+		"parcel": "^2.0.0-alpha.3.2",
+		"quicklink": "^2.0.0-alpha"
+	}
+}

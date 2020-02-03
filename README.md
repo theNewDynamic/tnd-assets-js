@@ -1,0 +1,1 @@
+Collection of commonly used JS library for The New Dynamic projects

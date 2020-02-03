@@ -1,0 +1,23 @@
+{
+	"name": "tnd-lazysizes",
+	"version": "1.0.0",
+	"description": "Lazyload assets",
+	"main": "dist/index.js",
+	"source": "src/index.js",
+	"scripts": {
+		"build": "parcel build src/index.js"
+	},
+	"keywords": [
+		"js"
+	],
+	"author": "budparr",
+	"license": "MIT",
+	"browserslist": [
+		"> 1%",
+		"not dead"
+	],
+	"devDependencies": {
+		"lazysizes": "^5.2.0",
+		"parcel": "^2.0.0-alpha.3.2"
+	}
+}

@@ -1,0 +1,10 @@
+$parcel$require("e3f98705440e69930710ce0088e6919d", "quicklink");
+$e3f98705440e69930710ce0088e6919d$import$quicklink({
+  ignores: [// ignore .pdf files
+  function (uri) {
+    return uri.includes('.pdf');
+  }, // ignore all links, scripts which has explicit noprefetch
+  function (uri, elem) {
+    return elem.hasAttribute('noprefetch');
+  }]
+});

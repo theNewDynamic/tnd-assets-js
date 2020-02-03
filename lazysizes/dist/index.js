@@ -1,0 +1,1 @@
+require("lazysizes"),require("lazysizes/plugins/noscript/ls.noscript.js");
