@@ -4,3 +4,5 @@ module:
   mounts:
   - source: partials
     target: layouts/partials
+  - source: assets/dist/
+    target: assets/dist/quicklink
