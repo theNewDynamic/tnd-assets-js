@@ -1,0 +1,8 @@
+module:
+  hugoVersion:
+    min: "0.61.0"
+  mounts:
+  - source: partials
+    target: layouts/partials
+  - source: dist/
+    target: dist/fathom-analytics
